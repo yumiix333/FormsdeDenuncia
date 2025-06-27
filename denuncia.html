@@ -1,36 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Denúncia Anônima - Olga Benario</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimento Olga Benario - Denúncia Anônima e Apoio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <main>
-    <h1>Denúncia Anônima</h1>
-    <p>Sua denúncia será recebida com respeito e sigilo total.</p>
 
-    <form action="https://formsubmit.co/liviayumid@gmail.com" method="POST" enctype="multipart/form-data">
-      <label for="descricao">Descrição do ocorrido*</label>
-      <textarea id="descricao" name="descricao" required></textarea>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Movimento Olga Benario</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#nossa-missao">Nossa Missão</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#recursos-apoio">Recursos e Apoio</a></li>
+                    <li><a href="denuncia.html">Fazer Denúncia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-      <label for="local">Local ou contexto (opcional)</label>
-      <input type="text" id="local" name="local">
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Bem-vinda</h1>
+                <p>
+                    Este espaço foi criado pelo movimento <strong>Olga Benario</strong> para acolher mulheres que passaram por situações de assédio.
+                    Aqui você pode fazer uma <strong>denúncia anônima</strong> com total segurança e respeito.
+                </p>
+                <p>
+                    Nenhum dado pessoal é coletado. Você tem o direito de ser ouvida. Nós estamos aqui por você.
+                </p>
+                <a href="denuncia.html" class="botao principal">Fazer denúncia anônima</a>
+            </div>
+        </section>
 
-      <label for="agressor">Identificação do agressor (opcional)</label>
-      <input type="text" id="agressor" name="agressor">
+        <section id="nossa-missao" class="info-section">
+            <div class="container">
+                <h2>Nossa Missão</h2>
+                <p>O Movimento Olga Benario é uma organização dedicada à luta pelos direitos das mulheres e ao combate à violência de gênero em todas as suas formas. Acreditamos na força da união e na importância de oferecer um ambiente seguro onde mulheres possam compartilhar suas experiências e buscar apoio.</p>
+                <p>Este espaço online foi criado para ser um canal seguro e confidencial para denúncias de assédio, contribuindo para a conscientização e a construção de uma sociedade mais justa e livre de violência.</p>
+            </div>
+        </section>
 
-      <label for="evidencia">Anexar evidências (opcional)</label>
-      <input type="file" id="evidencia" name="evidencia">
+        <section id="como-funciona" class="info-section gray-background">
+            <div class="container">
+                <h2>Como Funciona a Denúncia</h2>
+                <div class="passos">
+                    <div class="passo">
+                        <h3>1. Preencha o Formulário</h3>
+                        <p>Descreva o ocorrido de forma anônima no nosso formulário seguro.</p>
+                    </div>
+                    <div class="passo">
+                        <h3>2. Envio Sigiloso</h3>
+                        <p>Sua denúncia é enviada diretamente para nossa equipe, garantindo total confidencialidade.</p>
+                    </div>
+                    <div class="passo">
+                        <h3>3. Análise e Ação</h3>
+                        <p>Nós analisamos as informações para identificar padrões e contribuir com a luta contra o assédio.</p>
+                    </div>
+                </div>
+                <p class="emphasis">Sua identidade é sempre protegida. Não coletamos dados pessoais.</p>
+            </div>
+        </section>
 
-            <input type="hidden" name="_captcha" value="false">
+        <section id="recursos-apoio" class="info-section">
+            <div class="container">
+                <h2>Recursos e Apoio</h2>
+                <p>Você não está sozinha. Além deste canal de denúncia, existem diversas organizações e serviços prontos para te ajudar:</p>
+                <ul>
+                    <li><a href="tel:180">Disque 180 (Central de Atendimento à Mulher)</a> - Ligação gratuita e confidencial.</li>
+                    <li><a href="https://www.gov.br/mdh/pt-br/assuntos/mulheres" target="_blank">Ministério das Mulheres</a> - Informações e programas de apoio.</li>
+                    <li><a href="https://saude.gov.br/saude-mental" target="_blank">Serviços de Saúde Mental</a> - Busque apoio psicológico em sua localidade.</li>
+                    <li>Para casos de emergência, ligue para a Polícia: <a href="tel:190">190</a></li>
+                </ul>
+                <p>Para dúvidas gerais ou contato com o movimento (não para denúncias):</p>
+                <p>Email: <a href="mailto:contato.olgabenario@email.com">contato.olgabenario@email.com</a></p>
+            </div>
+        </section>
+    </main>
 
-            <input type="hidden" name="_next" value="https://yumiix333.github.io/FormsdeDenuncia/index.html">
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Início</a> |
+                <a href="denuncia.html">Fazer Denúncia</a>
+            </div>
+            <div class="social-media">
+                <a href="https://facebook.com/movimento-olga-benario" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/movimento-olga-benario" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/movimento-olga-benario" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 Movimento Olga Benario. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
-      <button type="submit">Enviar denúncia</button>
-    </form>
-
-    <a href="index.html" class="botao">Voltar à página inicial</a>
-  </main>
 </body>
 </html>
