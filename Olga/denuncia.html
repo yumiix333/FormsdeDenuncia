@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Denúncia Anônima - Olga Benario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Denúncia Anônima</h1>
+    <p>Sua denúncia será recebida com respeito e sigilo total.</p>
+
+    <form action="https://formsubmit.co/liviayumid@gmail.com" method="POST" enctype="multipart/form-data">
+      <label for="descricao">Descrição do ocorrido*</label>
+      <textarea id="descricao" name="descricao" required></textarea>
+
+      <label for="local">Local ou contexto (opcional)</label>
+      <input type="text" id="local" name="local">
+
+      <label for="agressor">Identificação do agressor (opcional)</label>
+      <input type="text" id="agressor" name="agressor">
+
+      <label for="evidencia">Anexar evidências (opcional)</label>
+      <input type="file" id="evidencia" name="evidencia">
+
+      <!-- Campo oculto para evitar CAPTCHA -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Campo oculto para redirecionamento após envio -->
+      <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+      <button type="submit">Enviar denúncia</button>
+    </form>
+
+    <a href="index.html" class="botao">Voltar à página inicial</a>
+  </main>
+</body>
+</html>
